@@ -1,0 +1,56 @@
+.helpseeker{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manny-pfp{
+    height: 50px;
+    margin-top: 95px;
+}
+
+.balloon{
+    width: 300px;
+    height: 50px;
+}
+.promo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nway{
+    margin-left: 60px;
+}
+.abay{
+    margin-right: 30px;
+}
+.messenger{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.messenger textarea{
+    width: 300px;
+    height: 100px;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    gap: 15px;
+}
+
+.contacts img{
+    height: 22px;
+    margin-top: 10px;
+}

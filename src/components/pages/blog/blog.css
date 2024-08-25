@@ -1,0 +1,26 @@
+.postfeild{
+    height: 67vh;
+    width: 120vh;
+    overflow: scroll;
+}
+.tabs{
+    text-align: left;
+    margin: 2px auto 3px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3{
+    border-bottom: 2px black solid;
+} 
+
+
+@media (max-width: 768px) {
+    .postfeild {
+        padding: 20px;
+        font-size: 1rem;
+        height: 50%;
+        width: 60%;
+    }
+}

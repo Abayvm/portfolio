@@ -1,0 +1,17 @@
+.title-bar-text{
+    height: 20px;
+    font-size: 16px;
+    font-weight: 349;
+}
+.head{
+    color: #010101;
+    text-align: center;
+}
+.head a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn{
+    color: #797979;
+}
