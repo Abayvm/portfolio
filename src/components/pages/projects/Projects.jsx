@@ -8,7 +8,7 @@ function Projects(){
     return(
         <>
             <Header/>
-            <h2>Projects</h2>
+            <h5><i><u>Projects</u></i></h5>
             <div className="content">
                 <Projectbox
                     projectName='weatherApp' 

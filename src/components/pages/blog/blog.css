@@ -1,26 +1,16 @@
-.postfeild{
-    height: 67vh;
-    width: 120vh;
-    overflow: scroll;
-}
-.tabs{
-    text-align: left;
-    margin: 2px auto 3px auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-h3{
-    border-bottom: 2px black solid;
+h2{
+    text-align: center;
 } 
 
+.blogs{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-@media (max-width: 768px) {
-    .postfeild {
-        padding: 20px;
-        font-size: 1rem;
-        height: 50%;
-        width: 60%;
-    }
+.blog{
+    padding: 20px;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }

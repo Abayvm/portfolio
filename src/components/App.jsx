@@ -10,6 +10,7 @@ import Home from './pages/home/Home';
 import Blog from "./pages/blog/Blog";
 import Projects from "./pages/projects/Projects";
 import Help from "./pages/help/Help";
+import InitialBlog from "./pages/blog/blogs/InitialBlog";
 
 class App extends React.Component {
   render() {
@@ -19,6 +20,7 @@ class App extends React.Component {
                   <Routes>
                       <Route path="/" element={<Home />} />
                       <Route path="/blog" element={<Blog />} />
+                        <Route path="/blog/initial-blog" element={<InitialBlog />}/>
                       <Route path="/projects" element={<Projects />} />
                       <Route path="/help" element={<Help />} />
                   </Routes>
