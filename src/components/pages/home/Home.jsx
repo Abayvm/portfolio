@@ -24,7 +24,7 @@ class Home extends React.Component {
                             </div>
                         </div>
                         <div className="aboutMe">
-                            <p> I'm Abay, your friendly neighborhood 🕸️ developer. If you 
+                            <p> This is my little website and blog. If you 
                                 are not here by accident feel free to check out my <a href="/blog">blogs</a> and <a href="/projects">projects</a>
                             </p>
                         </div>
