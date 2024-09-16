@@ -16,7 +16,7 @@ function Projectbox(props){
                 <div className="status-bar">
                     <p className="status-bar-field"><a href={props.projLink}>Source Code</a></p>
                     <p className="status-bar-field">Slide {props.slideNo}</p>
-                    <p className="status-bar-field">CPU Usage: 14%</p>
+                    <p className="status-bar-field"><a href={props.previewLink}>Preview</a></p>
                 </div>
             </div>
         </>
