@@ -15,13 +15,22 @@ function Projects(){
                     description='A React-based weather app fetching real-time data via API for quick, accurate weather updates'
                     technologies = {['React', 'API']}
                     projLink='https://github.com/Abayvm/mini-projects/blob/master/src/components/Weatherapp.jsx'
+                    slideNo='1'
+                />
+                <Projectbox
+                    projectName='thefacebook register 2004'
+                    description="The thefacebook project is a clone of Facebook's welcome page from 2004. It has been created using HTML and CSS to replicate the original design and provide a nostalgic experience for users."
+                    projLink='https://github.com/Abayvm/thefacebook?tab=readme-ov-file'
+                    slideNo='2'
                 />
                 <Projectbox
                     projectName='Todo App'
                     description='A React-powered to-do app for easy and efficient task management'
                     technologies={['React']}
                     projLink='https://github.com/Abayvm/mini-projects/blob/master/src/components/Todo.jsx'
+                    slideNo='3'
                 />
+                
             </div>
             <Footer/>
         </>

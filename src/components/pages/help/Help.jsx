@@ -26,7 +26,7 @@ function Help(){
             <Header />
             <div className="helpseeker">
                 <img src={manny} alt="stupidguy" className="manny-pfp"/>
-                <div role="tooltip" class="is-top is-right balloon">There is <u><i>no way</i></u> a dumb person like me can create a website.</div>
+                <div role="tooltip" className="is-top is-right balloon">There is <u><i>no way</i></u> a dumb person like me can create a website.</div>
             </div>
             <div className="promo">
                 <span className="nway"><i>No way?</i></span>

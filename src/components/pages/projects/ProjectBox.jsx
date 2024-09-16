@@ -1,11 +1,11 @@
 function Projectbox(props){
     return(
         <>
-            <div class="window" style={{maxWidth: '320px'}}>
-                <div class="title-bar">
-                    <div class="title-bar-text">{props.projectName}</div>
+            <div className="window" style={{maxWidth: '320px'}}>
+                <div className="title-bar">
+                    <div className="title-bar-text">{props.projectName}</div>
                 </div>
-                <div class="window-body has-space">
+                <div className="window-body has-space">
                     <p>{props.description}</p>
                     <ul>
                         {(props.technologies || []).map((tech, index) => (
@@ -13,10 +13,10 @@ function Projectbox(props){
                         ))}
                     </ul>
                 </div>
-                <div class="status-bar">
-                    <p class="status-bar-field"><a href={props.projLink}>Source Code</a></p>
-                    <p class="status-bar-field">Slide 1</p>
-                    <p class="status-bar-field">CPU Usage: 14%</p>
+                <div className="status-bar">
+                    <p className="status-bar-field"><a href={props.projLink}>Source Code</a></p>
+                    <p className="status-bar-field">Slide {props.slideNo}</p>
+                    <p className="status-bar-field">CPU Usage: 14%</p>
                 </div>
             </div>
         </>
