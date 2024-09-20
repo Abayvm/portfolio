@@ -9,7 +9,7 @@ function HappyAlways(){
             <Header />
             <h1 className="blog-head">Happy Always</h1>
             <div className="blog-body">
-                <p className="blog-date"><i>28-Aug-2024</i></p>
+                <p className="blog-date"><i>21-Aug-2024</i></p>
                 <p>
                     when you young. you happy always.<br/>
                     shiny new toy = happy,<br/>
