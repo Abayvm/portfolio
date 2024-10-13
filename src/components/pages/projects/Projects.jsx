@@ -18,11 +18,20 @@ function Projects(){
                     slideNo='1'
                     previewLink='https://mini-projects-chi.vercel.app/weatherapp'
                 />
+
+                <Projectbox
+                    projectName='Blog app' 
+                    description='A blog application built with Node.js and Express, allowing users to create, edit, and manage blog posts.'
+                    technologies = {['Node.js', 'Express', 'EJS']}
+                    projLink='https://github.com/Abayvm/blog-app'
+                    slideNo='2'
+                />
+
                 <Projectbox
                     projectName='thefacebook register 2004'
                     description="The thefacebook project is a clone of Facebook's welcome page from 2004. It has been created using HTML and CSS to replicate the original design and provide a nostalgic experience for users."
                     projLink='https://github.com/Abayvm/thefacebook?tab=readme-ov-file'
-                    slideNo='2'
+                    slideNo='3'
                     previewLink='https://abayvm.github.io/thefacebook/'
                 />
                 <Projectbox
@@ -30,7 +39,7 @@ function Projects(){
                     description='A React-powered to-do app for easy and efficient task management'
                     technologies={['React']}
                     projLink='https://github.com/Abayvm/mini-projects/blob/master/src/components/Todo.jsx'
-                    slideNo='3'
+                    slideNo='4'
                     previewLink='https://mini-projects-chi.vercel.app/todoapp'
                 />
                 
