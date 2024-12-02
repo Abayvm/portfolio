@@ -51,7 +51,7 @@ function Help(){
                     <a href="https://x.com/abay_v_/"><img src={X} alt="X"/></a>
                     <a href="https://github.com/abayvm"><img src={github} alt="github"/></a>
                     <a href="https://www.linkedin.com/in/abay-vm-445469246/"><img src={linkedin} alt="linkedin"/></a>
-                    <a href="https://t.me/bigdickabay"><img src={telegram} alt="telegram"/></a>
+                    <a href="https://t.me/bigdikkabay"><img src={telegram} alt="telegram"/></a>
                 </div>
             </div>
             <Footer />
