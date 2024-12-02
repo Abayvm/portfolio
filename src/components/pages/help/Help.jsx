@@ -47,7 +47,7 @@ function Help(){
                     <button type="submit" onClick={clearfield}>Send Email</button>
                 </form>
                 <div className="contacts">
-                    <a href="https://www.instagram.com/abay_v_/"><img src={instagram} alt="instagram"/></a>
+                    <a href="https://www.instagram.com/a.be.y/"><img src={instagram} alt="instagram"/></a>
                     <a href="https://x.com/abay_v_/"><img src={X} alt="X"/></a>
                     <a href="https://github.com/abayvm"><img src={github} alt="github"/></a>
                     <a href="https://www.linkedin.com/in/abay-vm-445469246/"><img src={linkedin} alt="linkedin"/></a>
