@@ -14,14 +14,10 @@ class Home extends React.Component {
                 <div className="content">
                     <div className="description">
                         <div className="basicInfo">
-                        {/* <h4>
-                            <span className="primary">De</span>
-                            <span className="secondary">veloper</span>
-                        </h4> */}
-                        <div className="main">dev<span>.</span></div>
-                            <div className="languages">
-                                <p><i><code>Javascript(node.js)</code></i> </p>
-                            </div>
+                            <div className="main">dev<span>.</span></div>
+                                <div className="languages">
+                                    <p><i><code>js dev</code></i> </p>
+                                </div>
                         </div>
                         <div className="aboutMe">
                             <p> This is my little website and blog. If you 
