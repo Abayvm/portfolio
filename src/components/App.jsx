@@ -3,6 +3,7 @@ import {
     Routes,
     Route,
     BrowserRouter,
+    Navigate
 } from "react-router-dom";
 import "./app.css"
 import "7.css/dist/7.css";
@@ -22,11 +23,12 @@ class App extends React.Component {
                   <Routes>
                       <Route path="/" element={<Home />} />
                       <Route path="/blog" element={<Blog />} />
-                        <Route path="/blog/initial-blog" element={<InitialBlog />} />
-                        <Route path="/blog/zuckonit" element={<Zuckonit />} />
-                        <Route path="/blog/happy-always" element={<HappyAlways />} />
+                      <Route path="/blog/initial-blog" element={<InitialBlog />} />
+                      <Route path="/blog/zuckonit" element={<Zuckonit />} />
+                      <Route path="/blog/happy-always" element={<HappyAlways />} />
                       <Route path="/projects" element={<Projects />} />
                       <Route path="/help" element={<Help />} />
+                      <Route path="*" element={<Navigate to="/" replace />} />
                   </Routes>
               </div>
           </BrowserRouter>
