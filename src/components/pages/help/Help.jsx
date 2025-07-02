@@ -41,7 +41,7 @@ function Help(){
                             id="body"
                             value={body}
                             onChange={(e) => setBody(e.target.value)}
-                            placeholder="Send me a message (do not spam)(please!?)"
+                            placeholder="Send me a message"
                         />
                     </div>
                     <button type="submit" onClick={clearfield}>Send Email</button>
